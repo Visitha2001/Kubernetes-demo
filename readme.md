@@ -1,8 +1,10 @@
----
-
-# 🐳 Kubernetes Demo API
+## 🐳 Kubernetes Demo API
 
 This project demonstrates how to containerize an API with Docker and deploy it to a Kubernetes cluster.
+
+---
+
+A **pod** is the smallest and most basic deployable unit in **Kubernetes**. Think of it as a small, logical group of one or more containers that share resources like a network namespace and storage volumes. While a pod can contain multiple containers, they are typically used for a single application or a tightly coupled group of processes that must run together. The main purpose of a pod is to provide a single, unified environment for an application, allowing Kubernetes to manage and scale it as a single unit, which simplifies deployment and service discovery. If a pod crashes, other healthy pods in the same service automatically take over to ensure the application remains available to users. This self-healing capability is a key feature of Kubernetes, providing high availability.
 
 ---
 
