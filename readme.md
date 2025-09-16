@@ -100,3 +100,14 @@ kubectl describe pod <pod-name>
 ```bash
 kubectl logs -f <pod-name>
 ```
+
+# using a bash script we can deploy the application(auto deploy)
+⭐ use git bash on windows
+
+```bash
+npm run deploy
+```
+then run the following command to access the service
+```bash
+minikube service <service-name>
+```
