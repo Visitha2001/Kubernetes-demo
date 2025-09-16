@@ -90,18 +90,18 @@ kubectl delete pods --all
 kubectl apply -f k8s/
 ```
 
-# Describe a specific pod to see detailed logs/events
+### Describe a specific pod to see detailed logs/events
 
 ```bash
 kubectl describe pod <pod-name>
 ```
 
-# See live container logs
+### See live container logs
 ```bash
 kubectl logs -f <pod-name>
 ```
 
-# using a bash script we can deploy the application(auto deploy)
+## using a bash script we can deploy the application(auto deploy)
 ⭐ use git bash on windows
 
 ```bash
@@ -110,4 +110,9 @@ npm run deploy
 then run the following command to access the service
 ```bash
 minikube service <service-name>
+```
+
+## Stop minikube
+```bash
+minikube stop
 ```
